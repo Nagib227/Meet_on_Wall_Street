@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/static/img/bar/logo_p_4_2.png" type="image/x-icon">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/static/css/bar/fh.css">
+    {% block head %}{% endblock %}
+    <link rel="stylesheet" href="/static/bootstrap_5/css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="/static/img/bar/logo_p_5_2.png" alt="">
+        </div>
+
+        <div class="header_inf">
+            <div class="header_title">
+                <h1>Meet on Wall Street</h1>
+            </div>
+            <!-- <div class="menu_pages">
+                <div class="pages">
+                    <div class="pages_gl">
+                        <h4 class="{% if active == " gl" %}active{% else %}noactive{% endif %}"><a
+                                href="https://bread-network.ru/projs/bar/main">Главная</a></h4>
+                    </div>
+                    <div class="pages_km">
+                        <h4 class="{% if active == " tm" %}active{% else %}noactive{% endif %}"><a
+                                href="/projs/bar/team">Команда</a></h4>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+
+        <!-- <div class="menu">
+            <nav role="navigation">
+                <div id="menuToggle">
+                    <input id="menuCheckbox" type="checkbox">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menu">
+                        <a href="https://bread-network.ru/projs/bar/main" class="link btn btn-lg">
+                            <h3>Главная</h3>
+                        </a><br>
+                        <a href="/projs/bar/team" class="link btn btn-lg">
+                            <h3>Команда</h3>
+                        </a><br>
+                    </ul>
+                </div>
+            </nav>
+        </div> -->
+    </header>
+    <main role="main">
+        {% block content %}{% endblock %}
+    </main>
+    <footer class="foot">
+        <div class="footer_logo">
+            <img src="/static/img/bar/logo.png" alt="">
+        </div>
+        <div class="footer_inf">
+            <div class="tg_inf">
+                <h4>Telegram</h4>
+                <a href="https://t.me/+mBjTMT97W0UzZmEy">@tg</a>
+            </div>
+            <div class="phone_inf">
+                <h4>Наши контакты</h4>
+                <h6>+7(960)681-14-66</h6>
+                <h6>+7(926)646-57-80</h6>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

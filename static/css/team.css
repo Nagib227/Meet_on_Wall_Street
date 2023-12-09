@@ -1,0 +1,80 @@
+body {
+  font-family: "inter";
+  background-image: url('../../img/bar/fon_3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+
+}
+
+html body a {
+  text-decoration: none;
+}
+
+main {
+    padding-top: 130px;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+}
+
+.name_inf {
+  font-size: 80px;
+  color: #af8c5e;
+}
+
+.name_inf h1 {
+    margin-bottom: 75px;
+}
+
+.glav_block {
+  display: flex;
+  justify-content: space-around;
+}
+
+.glav_block h4 {
+  font-size: 30px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+
+.man_inf {
+  min-width: 340px;
+  max-width: 340px;
+  background-color: rgb(194 177 164);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 35px;
+  padding: 25px 10px 25px 10px;
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+
+}
+
+.man_inf img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  /* margin-left: 14px; */
+}
+
+@media screen and (max-width: 1145px) {
+  .glav_block {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 710px) {
+    main {
+    padding-top: 85px;
+  }
+}
