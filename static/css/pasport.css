@@ -18,7 +18,7 @@ html main {
 }
 
 .text{
-    margin-top: 140px;
+    margin-top: 70px;
     width: 800px;
     border: solid 3px whitesmoke;
     border-radius: 20px;
@@ -42,7 +42,7 @@ html main {
     margin-top: 20px;
     /* margin-bottom: 20px; */
     text-align: center;
-    
+
 }
 
 .blok_2{
@@ -64,7 +64,7 @@ html main {
     }
 
     .text{
-        width: 70%; 
+        width: 70%;
     }
 }
 
@@ -74,13 +74,13 @@ html main {
     }
 
     .text{
-        width: 60%; 
+        width: 60%;
     }
 }
 
 @media screen and (max-width: 710px) {
     .text{
-        margin-top: 95px;
+        margin-top: 35px;
     }
 }
 
@@ -91,7 +91,7 @@ html main {
     }
 
     .text{
-        width: 85%; 
+        width: 85%;
     }
 }
 
@@ -101,9 +101,8 @@ html main {
     }
 
     .text{
-        width: 90%; 
+        width: 90%;
         padding: 0px 10px 10px 10px;
     }
-    
-}
 
+}

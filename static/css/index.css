@@ -195,7 +195,7 @@ line-height: 30px; */
   align-items: center;
   width: 65%;
   height: 180px;
- 
+
 }
 
 .inf_2 p {
@@ -447,7 +447,7 @@ html body a {
 
 @media screen and (max-width: 710px) {
   .blok_1 {
-    padding-top: 120px;
+    padding-top: 70px;
   }
 
   .one {
@@ -732,19 +732,19 @@ html body a {
   .idea_inf_1 p{
     font-size: 16px;
   }
-  
+
   .description_idea_title{
     font-size: 28px;
   }
-  
+
   .description_problem_title{
     font-size: 18px;
   }
-  
+
   .idea_inf_2 p{
     font-size: 16px;
   }
-  
+
   .inf {
     padding-left: 20px;
     padding-right: 20px;
@@ -752,16 +752,16 @@ html body a {
     display: flex;
     align-items: center;
   }
-  
-  
+
+
   .inf h2{
     font-size: 25px;
   }
-  
+
   .inf_1 p{
     font-size: 16px;
   }
-  
+
   .inf_2 h2{
     font-size: 20px;
     margin-bottom: 25px;
@@ -770,11 +770,11 @@ html body a {
   .inf_2 p{
     font-size: 16px;
   }
-  
+
     .blok_1 p {
       font-size: 15px;
     }
-  
+
   html p {
     font-size: 18px;
   }
@@ -812,7 +812,7 @@ html body a {
     padding-left: 30px;
     padding-right: 30px;
   }
- 
+
 
   .idea_inf_1 {
     width: 110%;
@@ -914,61 +914,60 @@ html body a {
 }
 
 @media screen and (max-width: 400px) {
-  .two,
-  .one {
+  .two, .one {
     padding-left: 25px;
     width: 97%;
   }
-  
-.inf_1 img{
-  width: 30px;
-  height: 5px;
-  margin-right: 80px;
-}
-.idea_inf_1 p{
-  font-size: 15px;
-}
 
-.description_idea_title{
-  font-size: 25px;
-}
+  .inf_1 img{
+    width: 30px;
+    height: 5px;
+    margin-right: 80px;
+  }
+  .idea_inf_1 p{
+    font-size: 15px;
+  }
 
-.description_problem_title{
-  font-size: 15px;
-}
+  .description_idea_title{
+    font-size: 25px;
+  }
 
-.idea_inf_2 p{
-  font-size: 15px;
-}
+  .description_problem_title{
+    font-size: 15px;
+  }
 
-.inf {
-  padding-left: 20px;
-  padding-right: 20px;
-  height: 1100px;
-  display: flex;
-  align-items: center;
-}
+  .idea_inf_2 p{
+    font-size: 15px;
+  }
 
-.inf_2{
-  height: 250px;
-}
+  .inf {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 1100px;
+    display: flex;
+    align-items: center;
+  }
 
-.inf h2{
-  font-size: 25px;
-}
+  .inf_2{
+    height: 250px;
+  }
 
-.inf_1 p{
-  font-size: 15px;
-}
+  .inf h2{
+    font-size: 25px;
+  }
 
-.inf_2 h2{
-  font-size: 20px;
-  margin-bottom: 25px;
-  margin-right: 15px;
-}
-.inf_2 p{
-  font-size: 15px;
-}
+  .inf_1 p{
+    font-size: 15px;
+  }
+
+  .inf_2 h2{
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-right: 15px;
+  }
+  .inf_2 p{
+    font-size: 15px;
+  }
 
   .blok_1 p {
     font-size: 15px;
@@ -978,13 +977,13 @@ html body a {
     padding: 25px 20px 25px 20px;
   }
 
-.two{
-  padding: 25px 20px 25px 20px;
-}
+  .two{
+    padding: 25px 20px 25px 20px;
+  }
 
-.two h2{
-  margin-left: 20px;
-}
+  .two h2{
+    margin-left: 20px;
+  }
 
   .idea_inf {
     padding-left: 15px;
