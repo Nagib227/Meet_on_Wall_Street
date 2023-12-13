@@ -20,7 +20,7 @@ main {
   flex-direction: column;
   color: whitesmoke;
   width: 100%;
-  background-image: url('/static/img/bar/Fon_for_block_1_a.png');
+  background-image: url('/static/img/Fon_for_block_1_a.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -133,7 +133,7 @@ line-height: 30px; */
 }
 
 .fon_after_first_problem {
-  background-image: url('/static/img/bar/fon_after_first_problem_.png');
+  background-image: url('/static/img/fon_after_first_problem_.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -170,6 +170,7 @@ line-height: 30px; */
   background: #180202;
   align-items: center;
   color: whitesmoke;
+  height: 100%;
   /* border-bottom: solid 3px white; */
 }
 
@@ -192,10 +193,13 @@ line-height: 30px; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 65%; 
+  width: 65%;
+  height: 180px;
+ 
 }
 
 .inf_2 p {
+  margin-bottom: 80px;
   border: solid 2px white;
   border-radius: 15px;
   padding: 20px 20px 20px 20px;
@@ -252,7 +256,7 @@ line-height: 30px; */
 }
 
 .fon_after_titel_WoWS {
-  background-image: url('/static/img/bar/fon_after_titel_WoW.png');
+  background-image: url('/static/img/fon_after_titel_WoW.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -335,7 +339,7 @@ html body a {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-image: url('/static/img/bar/fon_for_block_about_us.png');
+  background-image: url('/static/img/fon_for_block_about_us.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -381,7 +385,9 @@ html body a {
   .glav_block {
     flex-wrap: wrap;
   }
- 
+  .inf{
+    height: 1000px;
+  }
 }
 
 @media screen and (max-width: 1100px) {
@@ -660,6 +666,7 @@ html body a {
     display: flex;
     align-items: flex-end;
     padding-left: 60px;
+    height: 1450px;
     padding-right: 30px;
   }
 
@@ -680,6 +687,7 @@ html body a {
 
   .inf_2 {
     width: 105%;
+    height: 220px;
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -740,6 +748,7 @@ html body a {
   .inf {
     padding-left: 20px;
     padding-right: 20px;
+    height: 1000px;
     display: flex;
     align-items: center;
   }
@@ -771,7 +780,7 @@ html body a {
   }
 
   .blok_1 {
-    background-image: url('/static/img/bar/Fon_for_block_1_m.jpg');
+    background-image: url('/static/img/Fon_for_block_1_m.jpg');
     padding-bottom: 0px;
   }
 
@@ -834,6 +843,7 @@ html body a {
     display: flex;
     align-items: flex-end;
     padding-left: 40px;
+    height: 1200px;
   }
 
   .inf_1 {
@@ -851,6 +861,7 @@ html body a {
 
   .inf_2 {
     padding-left: 10px;
+    height: 200px;
   }
 
   .inf_2 h1 {
@@ -933,11 +944,14 @@ html body a {
 .inf {
   padding-left: 20px;
   padding-right: 20px;
+  height: 1100px;
   display: flex;
   align-items: center;
 }
 
-
+.inf_2{
+  height: 250px;
+}
 
 .inf h2{
   font-size: 25px;

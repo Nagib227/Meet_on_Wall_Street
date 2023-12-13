@@ -9,7 +9,7 @@ html body {
   height: 130px;
   display: flex;
   justify-content: center;
-  background: url('/static/img/bar/fon_header_2.png');
+  background: url('/static/img/fon_header_2.png');
   color: white;
 }
 
