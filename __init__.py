@@ -4,6 +4,10 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return "Hello world"
+    return render_template("index.html")
+
+@app.route("/passport")
+def passport():
+    return render_template("passport.html")
 
 
