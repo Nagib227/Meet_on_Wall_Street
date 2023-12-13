@@ -15,6 +15,7 @@ html main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 45px;
 }
 
 .text{
@@ -51,11 +52,30 @@ html main {
     align-items: center;
 }
 
+.list_function{
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+    /* Прячем исходные маркеры */
+}
+
+li:before {
+    /* Цвет маркера */
+    content: url("../img/img_for_li_5.png");
+    /* Сам маркер */
+    padding-right: 0px;
+    /* Расстояние от маркера до текста */
+}
+
+
 .blok_3{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 
 
 @media screen and (max-width: 1000px) {
