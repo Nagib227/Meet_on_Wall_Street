@@ -57,21 +57,47 @@ html main {
     overflow: hidden;
     transition: max-height 0.7s ease;
   }
-    
-  
+
+
 .list_function {
     width: 100%;
 }
 
 li {
-    /* list-style-type: none; */
+    list-style-type: none;
     padding-right: 0px;
 }
 
-/* li:before {
-    content: url("../img/img_for_li_5.png"); 
-    padding-right: 0px;
-} */
+li::before {
+  position: relative;
+  top: -0.1em;
+  left: -10px;
+  font-size: 1em;
+}
+
+ul li::before{
+  content: '●';
+}
+
+ul ul li::before{
+  content: '○';
+}
+
+ul ul ul li::before{
+  content: '●';
+}
+
+ul ul ul ul li::before{
+  content: '○';
+}
+
+ul ul ul ul ul li::before{
+  content: '●';
+}
+
+ul ul ul ul ul ul li::before{
+  content: '○';
+}
 
 
 .blok_3 {
