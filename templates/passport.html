@@ -29,33 +29,36 @@
         <h3>Функционал</h3>
         <div class="list_function">
           <details>
-            <summary> Аналитика – Для владельцев бара</summary>
-            <ul>
-              <li>Товар</li>
+            <summary>Аналитика – Для владельцев бара</summary>
+            <div class="content">
               <ul>
-                <li>Проданный товар</li>
+                <li>Товар</li>
                 <ul>
-                  <li>Выручка</li>
-                  <li>Чистая прибыль</li>
-                  <li>Диаграмма проданного товара за месяц</li>
-                </ul>
-                <li>Лежащий на складе товар</li>
-                <ul>
-                  <li>Непроданный товар</li>
+                  <li>Проданный товар</li>
                   <ul>
-                    <li>Диаграмма непроданного товара</li>
+                    <li>Выручка</li>
+                    <li>Чистая прибыль</li>
+                    <li>Диаграмма проданного товара за месяц</li>
                   </ul>
-                  <li>Забронированный товар</li>
+                  <li>Лежащий на складе товар</li>
                   <ul>
-                    <li>Диаграмма фьючерсов ко всему товару на складе</li>
-                    <li>Кол-во текущих фьючерсов</li>
+                    <li>Непроданный товар</li>
+                    <ul>
+                      <li>Диаграмма непроданного товара</li>
+                    </ul>
+                    <li>Забронированный товар</li>
+                    <ul>
+                      <li>Диаграмма фьючерсов ко всему товару на складе</li>
+                      <li>Кол-во текущих фьючерсов</li>
+                    </ul>
                   </ul>
                 </ul>
               </ul>
-            </ul>
+            </div>
           </details>
           <details>
             <summary> Мерч – Для покупателей/персонала </summary>
+            <div class="content">
             <ul>
               <li>Реклама</li>
               <ul>
@@ -63,9 +66,11 @@
                 <li> Чистая прибыль</li>
               </ul>
             </ul>
+            </div>
           </details>
           <details>
             <summary> Приложение/сайт – Для потребителя</summary>
+            <div class="content">
             <ul>
               <li>Фьючерсы</li>
               <ul>
@@ -116,46 +121,48 @@
                 </ul>
               </ul>
             </ul>
+            </div>
           </details>
           <details>
             <summary> ПО – Для персонала </summary>
+            <div class="content">
             <ul>
               <li> Бухгалтерия</li>
               <li> Ведение учёта склада</li>
             </ul>
+            </div>
           </details>
           <details>
             <summary> Сервер – Для ПО и Приложения </summary>
-            <ul>Постоянно меняющиеся цены
-              <li>
-                <ul>Повышение
-                  <li>
-                    <ul>При покупке
-                      <ul>
-                        <li>Фьючерсов </li>
-                        <li>В баре реального товара</li>
-                      </ul>
+            <div class="content">
+              <ul>
+                <li>Постоянно </li>
+                <ul>
+                  <li>Повышение</li>
+                  <ul>
+                    <li>При покупке</li>
+                    <ul>
+                      <li>Фьючерсов</li>
+                      <li>В баре реального товара</li>
                     </ul>
-                  </li>
-                  <li>
-                    <ul>При малом кол-ве на складе</ul>
-                  </li>
+                  </ul>
+                  <ul>
+                    <li>При малом кол-ве на складе</li>
+                  </ul>
                 </ul>
-              </li>
-              <li>
-                <ul>Понижение
+                <ul>
+                  <li>Понижение</li>
                   <ul>
                     <li>При малом спросе</li>
                     <li>При застое на складе</li>
                   </ul>
                 </ul>
-              </li>
-            </ul>
-            <ul> <li>Обработка всей информации</li>
-              <ul>
+                <li>Обработка всей информации</li>
+                <ul>
                   <li>Внесение в ЕГИСЗ и Честный знак</li>
+                </ul>
               </ul>
-            </ul>
+            </div>
           </details>
         </div>
       </div>
@@ -177,7 +184,7 @@
     </div>
   </div>
 </div>
-<script src="/static/js/scripts/passport.js"></script>
+<script src="/static/js/scripts/details_animation.js"></script>
 <script src="/static/js/jQuery/jQuery.js"></script>
 <script src="/static/js/scripts/fh_move.js"></script>
 {% endblock %}
