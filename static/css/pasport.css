@@ -6,19 +6,19 @@ html main {
     font-size: 23px;
 }
 
-.img_top img{
+.img_top img {
     width: 100%;
     height: 400px;
 }
 
-.fon_for_text{
+.fon_for_text {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 45px;
 }
 
-.text{
+.text {
     margin-top: 70px;
     width: 800px;
     border: solid 3px whitesmoke;
@@ -31,13 +31,13 @@ html main {
     margin-bottom: 20px;
 }
 
-.blok_1{
+.blok_1 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.title_for_blok_1{
+.title_for_blok_1 {
     border-bottom: solid 3px whitesmoke;
     width: 106%;
     margin-top: 20px;
@@ -46,31 +46,35 @@ html main {
 
 }
 
-.blok_2{
+.blok_2 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.list_function{
+.list_function details > ul {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.7s ease;
+  }
+    
+  
+.list_function {
     width: 100%;
 }
 
 li {
-    list-style-type: none;
-    /* Прячем исходные маркеры */
-}
-
-li:before {
-    /* Цвет маркера */
-    content: url("../img/img_for_li_5.png");
-    /* Сам маркер */
+    /* list-style-type: none; */
     padding-right: 0px;
-    /* Расстояние от маркера до текста */
 }
 
+/* li:before {
+    content: url("../img/img_for_li_5.png"); 
+    padding-right: 0px;
+} */
 
-.blok_3{
+
+.blok_3 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,27 +83,27 @@ li:before {
 
 
 @media screen and (max-width: 1000px) {
-    body{
+    body {
         font-size: 20px;
     }
 
-    .text{
+    .text {
         width: 70%;
     }
 }
 
 @media screen and (max-width: 750px) {
-    body{
+    body {
         font-size: 18px;
     }
 
-    .text{
+    .text {
         width: 60%;
     }
 }
 
 @media screen and (max-width: 710px) {
-    .text{
+    .text {
         margin-top: 35px;
     }
 }
@@ -110,7 +114,7 @@ li:before {
         letter-spacing: 0rem;
     }
 
-    .text{
+    .text {
         width: 85%;
     }
 }
@@ -120,7 +124,7 @@ li:before {
         font-size: 14px;
     }
 
-    .text{
+    .text {
         width: 90%;
         padding: 0px 10px 10px 10px;
     }
